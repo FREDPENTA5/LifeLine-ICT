@@ -46,7 +46,13 @@ issue `#5` (CRUD API implementation).
 
 ```bash
 python -m venv .venv
+
+# macOS/Linux/Git Bash
 source .venv/bin/activate
+
+# Windows PowerShell
+.\.venv\Scripts\activate
+
 pip install -r backend/requirements.txt
 ```
 
